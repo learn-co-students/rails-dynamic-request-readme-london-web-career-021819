@@ -2,7 +2,7 @@ class PostsController < ApplicationController
 
 
   def Show
-
-  end 
+    @post = Post.find(params[:id])
+  end
 
 end
